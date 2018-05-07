@@ -1,0 +1,25 @@
+{
+    "name": "povit/oauth2-bitrix24",
+    "authors": [
+        {
+            "name": "Vitaly Potenko"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "bitrix24"
+    ],
+    "require": {
+        "php": ">=5.4",
+        "league/oauth2-client": "2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Povit\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
